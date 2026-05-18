@@ -1,0 +1,64 @@
+.header {
+    background-color: #007bff;
+    /* Blue */
+    color: #ffffff;
+    /* White */
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.about,
+.services {
+    background-color: #f8f9fa;
+    /* Light gray */
+    color: #343a40;
+    /* Dark gray */
+    padding: 20px;
+    margin: 20px 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+.service {
+    background-color: #28a745;
+    /* Green */
+    color: #ffffff;
+    /* White */
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 18px;
+    text-align: center;
+}
+
+.footer {
+    background-color: #343a40;
+    /* Dark gray */
+    color: #f8f9fa;
+    /* Light gray */
+    padding: 10px;
+    text-align: center;
+}
+
+.testimonial {
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    font-size: 17px;
+}
+
+/* High Contrast Colors */
+.testimonial1 {
+    background-color: black;
+    color: yellow;
+}
+
+.testimonial2 {
+    background-color: darkblue;
+    color: white;
+}
+
+.testimonial3 {
+    background-color: darkgreen;
+    color: white;
+}

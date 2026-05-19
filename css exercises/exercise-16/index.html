@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky Headers Example</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            line-height: 1.8;
+        }
+
+        /* Full Width Wrapper */
+        .content-wrapper {
+            width: 100%;
+        }
+
+        /* Sections */
+        section {
+            background-color: white;
+            padding: 20px;
+        }
+
+        /* Sticky Header */
+        .sticky-header {
+            position: sticky;
+            top: 0;
+            width: 100%;
+
+            background-color: navy;
+            color: white;
+
+            padding: 15px;
+            font-size: 24px;
+            margin: 0;
+
+            z-index: 100;
+        }
+
+        /* Paragraph Styling */
+        p {
+            font-size: 18px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="content-wrapper">
+
+        <section>
+            <h2 class="sticky-header">Section 1: Overview</h2>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+
+            <p>
+                Curabitur non urna vel lacus cursus feugiat. Donec euismod,
+                magna at tincidunt posuere, turpis erat volutpat nulla.
+            </p>
+
+            <p>
+                Pellentesque habitant morbi tristique senectus et netus et
+                malesuada fames ac turpis egestas.
+            </p>
+        </section>
+
+        <section>
+            <h2 class="sticky-header">Section 2: Details</h2>
+
+            <p>
+                Integer nec odio. Praesent libero. Sed cursus ante dapibus diam...
+            </p>
+
+            <p>
+                Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue
+                semper porta.
+            </p>
+
+            <p>
+                Mauris massa. Vestibulum lacinia arcu eget nulla.
+            </p>
+        </section>
+
+        <section>
+            <h2 class="sticky-header">Section 3: Specifications</h2>
+
+            <p>
+                Sed nisi. Nulla quis sem at nibh elementum imperdiet...
+            </p>
+
+            <p>
+                Fusce nec tellus sed augue semper porta. Mauris massa.
+            </p>
+
+            <p>
+                Quisque volutpat condimentum velit. Class aptent taciti sociosqu.
+            </p>
+        </section>
+
+    </div>
+
+</body>
+</html>

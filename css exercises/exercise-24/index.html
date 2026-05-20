@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Profile Cards</title>
+
+  <style>
+   
+.profile-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px 0px;
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.card {
+  background: #fcfcfc;
+  border: 1px solid #eaeaea;
+  width: 46%;
+  box-sizing: border-box;
+  padding: 24px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.02);
+}
+
+.card img {
+  width: 100%;
+  max-width: 100%;
+  height: 320px;
+  display: block;
+  background-position: center center;
+  object-fit: cover;
+}
+
+
+.info h2 {
+  font-family: 'Georgia', serif;
+  font-size: 1.6rem;
+  margin: 20px 0 10px 0;
+  color: #111;
+}
+
+.info p {
+  font-size: 1rem;
+  color: #666;
+  margin: 0 0 15px 0;
+}
+
+.info a {
+  color: #0000ee;
+  text-decoration: underline;
+  font-size: 0.95rem;
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .profile-cards {
+    gap: 0;
+  }
+}
+  </style>
+</head>
+<body>
+
+  <div class="profile-cards">
+
+    <div class="card">
+      <img src="https://i.pinimg.com/736x/37/7e/58/377e588444c2d6349201e397aaef62a1.jpg" alt="Profile Photo">
+      <div class="info">
+        <h2>John Doe</h2>
+        <p>Web Developer</p>
+        <a href="#">More Info</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://i.pinimg.com/736x/59/4d/42/594d425ad992bae9292b4e739d79e355.jpg" alt="Profile Photo">
+      <div class="info">
+        <h2>John Doe</h2>
+        <p>Web Developer</p>
+        <a href="#">More Info</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://i.pinimg.com/1200x/23/c3/6b/23c36b997f4facf89386e9674692b445.jpg" alt="Profile Photo">
+      <div class="info">
+        <h2>John Doe</h2>
+        <p>Web Developer</p>
+        <a href="#">More Info</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://i.pinimg.com/1200x/3e/f3/50/3ef350dc86cc82a092463e5d795654b5.jpg" alt="Profile Photo">
+      <div class="info">
+        <h2>John Doe</h2>
+        <p>Web Developer</p>
+        <a href="#">More Info</a>
+      </div>
+    </div>
+
+</div>
+
+</body>
+</html>

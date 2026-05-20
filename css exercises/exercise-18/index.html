@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Player</title>
+
+    <style>
+        body {
+            margin: 0;
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding-top: 150px;
+        }
+
+        /* Media Player */
+        .media-player {
+            width: 70%;
+            max-width: 700px;
+
+            background-color: #222;
+            padding: 20px;
+            border-radius: 12px;
+
+            margin: auto;
+        }
+
+        /* Buttons */
+        .control-button {
+            border: none;
+            border-radius: 10px;
+
+            font-size: 20px;
+            font-weight: bold;
+
+            color: white;
+            cursor: pointer;
+
+            min-width: 100px;
+            padding: 18px;
+            margin: 10px;
+        }
+
+        /* Prev Button */
+        .prev {
+            width: 20%;
+            background-color: #0d6efd;
+        }
+
+        /* Play Button Bigger */
+        .play {
+            width: 40%;
+            background-color: #28a745;
+        }
+
+        /* Next Button */
+        .next {
+            width: 20%;
+            background-color: #0d6efd;
+        }
+
+        /* Hover Effect */
+        .control-button:hover {
+            opacity: 0.9;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="media-player">
+        <button class="control-button prev">Prev</button>
+
+        <button class="control-button play">Play</button>
+
+        <button class="control-button next">Next</button>
+    </div>
+
+</body>
+</html>

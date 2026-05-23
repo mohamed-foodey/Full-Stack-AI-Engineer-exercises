@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>methods in objects</h1>
+    <script>
+
+        let cars = {
+        make: "Honda",
+        model: "Civic",
+        year: 2022,
+          car : function () {
+          console.log("The car has started." + this.make);
+        },
+       };
+      
+
+      cars.car(); // Output: Hello, my name is Alice
+    </script>
+  </body>
+</html>

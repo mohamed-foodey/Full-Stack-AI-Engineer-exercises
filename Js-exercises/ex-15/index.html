@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>For of loop</h1>
+
+    <script>
+        // for of loop
+        // let colors = ["blue", "green", "red", "yellow"];
+        // for (let color of colors) {
+        //     console.log(color);
+        // }
+
+        // // for in loop
+        // let car = {
+        //     make: "Honda",
+        //     model: "Civic",
+        //     year: 2022
+        // };
+        // for (let key in car) {
+        //     console.log(key + ": " + car[key]);
+        // }
+        // combined for of and for in loop
+        const people = [
+            { name: "Alice", age: 25, city: "New York" },
+            { name: "Bob", age: 30, city: "London" },
+            { name: "Charlie", age: 35, city: "Paris" }
+        ];
+
+        for (let person of people) {
+            console.log(person.name);
+            console.log(person.age);
+            console.log(person.city);
+            console.log("------------------");
+        }
+        
+    </script>
+    
+</body>
+</html>

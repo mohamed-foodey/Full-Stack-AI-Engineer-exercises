@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Default parameters</h1>
+
+    <script>
+      // default parameters
+      function calCulateAerea(width = 1, height = width) {
+        console.log(`The area is ${width * height}`);
+      }
+      calCulateAerea(5); // Output: The area is 25
+    </script>
+  </body>
+</html>
